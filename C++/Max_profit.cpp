@@ -64,14 +64,14 @@ int main()
     while(t--)
     {
        int n;
-       cin >>n;
+       cin >> n;
        vector<int> startTime(n);
        vector<int> Duration(n);
        vector<int> Profit(n);
 
        for (int i = 0; i < n; i++)
        {
-           cin >>startTime[i]>>Duration[i]>>Profit[i];
+           cin >> startTime[i] >> Duration[i] >> Profit[i];
        }
        vector<int>endTime(n);
        for (int i = 0; i < n; i++)
@@ -79,7 +79,7 @@ int main()
            endTime[i] = startTime[i] + Duration[i];
        }
        // Max Profit-------------------------------------
-       cout <<jobScheduling(startTime, endTime, Profit);
+       cout << jobScheduling(startTime, endTime, Profit);
     }
     return 0;
 }
