@@ -24,6 +24,6 @@ int main()
     string Y = "HACKTOBER";
     int m = X.size();
     int n = Y.size();
-    cout<<"Length of LCS is "<<lcs( X, Y, m, n )<<endl;
+    cout << "Length of LCS is " << lcs( X, Y, m, n ) << endl;
     return 0;
 }
