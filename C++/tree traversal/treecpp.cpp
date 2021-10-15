@@ -113,7 +113,6 @@ int Tree::Height(struct Node *root){
 
 int main(){
     Tree t;
-    
     t.CreateTree();
     cout<<"Preorder ";
     
